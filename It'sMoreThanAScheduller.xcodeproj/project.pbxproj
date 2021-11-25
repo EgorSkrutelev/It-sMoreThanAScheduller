@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		494704A3274C1C7800864FDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494704A2274C1C7800864FDF /* AppDelegate.swift */; };
-		494704A5274C1C7800864FDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494704A4274C1C7800864FDF /* SceneDelegate.swift */; };
-		494704A7274C1C7800864FDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494704A6274C1C7800864FDF /* ViewController.swift */; };
-		494704AA274C1C7800864FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494704A8274C1C7800864FDF /* Main.storyboard */; };
-		494704AC274C1C7A00864FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494704AB274C1C7A00864FDF /* Assets.xcassets */; };
-		494704AF274C1C7A00864FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494704AD274C1C7A00864FDF /* LaunchScreen.storyboard */; };
+		8293623C274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293623B274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift */; };
+		8293623E274F6DC70053F66C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293623D274F6DC70053F66C /* ContentView.swift */; };
+		82936240274F6DC70053F66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8293623F274F6DC70053F66C /* Assets.xcassets */; };
+		82936243274F6DC70053F66C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82936242274F6DC70053F66C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4947049F274C1C7800864FDF /* It'sMoreThanAScheduller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "It'sMoreThanAScheduller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		494704A2274C1C7800864FDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		494704A4274C1C7800864FDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		494704A6274C1C7800864FDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		494704A9274C1C7800864FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		494704AB274C1C7A00864FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		494704AE274C1C7A00864FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		494704B0274C1C7A00864FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82936238274F6DC70053F66C /* It'sMoreThanAScheduller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "It'sMoreThanAScheduller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8293623B274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = It_sMoreThanASchedullerApp.swift; sourceTree = "<group>"; };
+		8293623D274F6DC70053F66C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8293623F274F6DC70053F66C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82936242274F6DC70053F66C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4947049C274C1C7800864FDF /* Frameworks */ = {
+		82936235274F6DC70053F66C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,78 +32,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49470496274C1C7800864FDF = {
+		8293622F274F6DC70053F66C = {
 			isa = PBXGroup;
 			children = (
-				494704A1274C1C7800864FDF /* It'sMoreThanAScheduller */,
-				494704A0274C1C7800864FDF /* Products */,
+				8293623A274F6DC70053F66C /* It'sMoreThanAScheduller */,
+				82936239274F6DC70053F66C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		494704A0274C1C7800864FDF /* Products */ = {
+		82936239274F6DC70053F66C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4947049F274C1C7800864FDF /* It'sMoreThanAScheduller.app */,
+				82936238274F6DC70053F66C /* It'sMoreThanAScheduller.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		494704A1274C1C7800864FDF /* It'sMoreThanAScheduller */ = {
+		8293623A274F6DC70053F66C /* It'sMoreThanAScheduller */ = {
 			isa = PBXGroup;
 			children = (
-				494704B7274C1E3800864FDF /* Supporting File */,
-				494704BA274C1E5D00864FDF /* ViewController */,
-				494704B9274C1E5100864FDF /* Storyboard */,
-				494704B8274C1E4800864FDF /* Resources */,
+				8293623B274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift */,
+				8293623D274F6DC70053F66C /* ContentView.swift */,
+				8293623F274F6DC70053F66C /* Assets.xcassets */,
+				82936241274F6DC70053F66C /* Preview Content */,
 			);
 			path = "It'sMoreThanAScheduller";
 			sourceTree = "<group>";
 		};
-		494704B7274C1E3800864FDF /* Supporting File */ = {
+		82936241274F6DC70053F66C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				494704A2274C1C7800864FDF /* AppDelegate.swift */,
-				494704A4274C1C7800864FDF /* SceneDelegate.swift */,
-				494704B0274C1C7A00864FDF /* Info.plist */,
+				82936242274F6DC70053F66C /* Preview Assets.xcassets */,
 			);
-			path = "Supporting File";
-			sourceTree = "<group>";
-		};
-		494704B8274C1E4800864FDF /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				494704AB274C1C7A00864FDF /* Assets.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		494704B9274C1E5100864FDF /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				494704A8274C1C7800864FDF /* Main.storyboard */,
-				494704AD274C1C7A00864FDF /* LaunchScreen.storyboard */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		494704BA274C1E5D00864FDF /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				494704A6274C1C7800864FDF /* ViewController.swift */,
-			);
-			path = ViewController;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4947049E274C1C7800864FDF /* It'sMoreThanAScheduller */ = {
+		82936237274F6DC70053F66C /* It'sMoreThanAScheduller */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 494704B3274C1C7A00864FDF /* Build configuration list for PBXNativeTarget "It'sMoreThanAScheduller" */;
+			buildConfigurationList = 82936246274F6DC70053F66C /* Build configuration list for PBXNativeTarget "It'sMoreThanAScheduller" */;
 			buildPhases = (
-				4947049B274C1C7800864FDF /* Sources */,
-				4947049C274C1C7800864FDF /* Frameworks */,
-				4947049D274C1C7800864FDF /* Resources */,
+				82936234274F6DC70053F66C /* Sources */,
+				82936235274F6DC70053F66C /* Frameworks */,
+				82936236274F6DC70053F66C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -116,25 +84,25 @@
 			);
 			name = "It'sMoreThanAScheduller";
 			productName = "It'sMoreThanAScheduller";
-			productReference = 4947049F274C1C7800864FDF /* It'sMoreThanAScheduller.app */;
+			productReference = 82936238274F6DC70053F66C /* It'sMoreThanAScheduller.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		49470497274C1C7800864FDF /* Project object */ = {
+		82936230274F6DC70053F66C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					4947049E274C1C7800864FDF = {
+					82936237274F6DC70053F66C = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 4947049A274C1C7800864FDF /* Build configuration list for PBXProject "It'sMoreThanAScheduller" */;
+			buildConfigurationList = 82936233274F6DC70053F66C /* Build configuration list for PBXProject "It'sMoreThanAScheduller" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,63 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 49470496274C1C7800864FDF;
-			productRefGroup = 494704A0274C1C7800864FDF /* Products */;
+			mainGroup = 8293622F274F6DC70053F66C;
+			productRefGroup = 82936239274F6DC70053F66C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4947049E274C1C7800864FDF /* It'sMoreThanAScheduller */,
+				82936237274F6DC70053F66C /* It'sMoreThanAScheduller */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4947049D274C1C7800864FDF /* Resources */ = {
+		82936236274F6DC70053F66C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494704AF274C1C7A00864FDF /* LaunchScreen.storyboard in Resources */,
-				494704AC274C1C7A00864FDF /* Assets.xcassets in Resources */,
-				494704AA274C1C7800864FDF /* Main.storyboard in Resources */,
+				82936243274F6DC70053F66C /* Preview Assets.xcassets in Resources */,
+				82936240274F6DC70053F66C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4947049B274C1C7800864FDF /* Sources */ = {
+		82936234274F6DC70053F66C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494704A7274C1C7800864FDF /* ViewController.swift in Sources */,
-				494704A3274C1C7800864FDF /* AppDelegate.swift in Sources */,
-				494704A5274C1C7800864FDF /* SceneDelegate.swift in Sources */,
+				8293623E274F6DC70053F66C /* ContentView.swift in Sources */,
+				8293623C274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		494704A8274C1C7800864FDF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				494704A9274C1C7800864FDF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		494704AD274C1C7A00864FDF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				494704AE274C1C7A00864FDF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		494704B1274C1C7A00864FDF /* Debug */ = {
+		82936244274F6DC70053F66C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		494704B2274C1C7A00864FDF /* Release */ = {
+		82936245274F6DC70053F66C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,19 +261,20 @@
 			};
 			name = Release;
 		};
-		494704B4274C1C7A00864FDF /* Debug */ = {
+		82936247274F6DC70053F66C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NA6C9Y7864;
+				DEVELOPMENT_ASSET_PATHS = "\"It'sMoreThanAScheduller/Preview Content\"";
+				DEVELOPMENT_TEAM = 3868R87QJX;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "It'sMoreThanAScheduller/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +282,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "itmoCoopWork.It-sMoreThanAScheduller";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romanrakhlin.It-sMoreThanAScheduller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -342,19 +290,20 @@
 			};
 			name = Debug;
 		};
-		494704B5274C1C7A00864FDF /* Release */ = {
+		82936248274F6DC70053F66C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NA6C9Y7864;
+				DEVELOPMENT_ASSET_PATHS = "\"It'sMoreThanAScheduller/Preview Content\"";
+				DEVELOPMENT_TEAM = 3868R87QJX;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "It'sMoreThanAScheduller/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "itmoCoopWork.It-sMoreThanAScheduller";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romanrakhlin.It-sMoreThanAScheduller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -373,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4947049A274C1C7800864FDF /* Build configuration list for PBXProject "It'sMoreThanAScheduller" */ = {
+		82936233274F6DC70053F66C /* Build configuration list for PBXProject "It'sMoreThanAScheduller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				494704B1274C1C7A00864FDF /* Debug */,
-				494704B2274C1C7A00864FDF /* Release */,
+				82936244274F6DC70053F66C /* Debug */,
+				82936245274F6DC70053F66C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		494704B3274C1C7A00864FDF /* Build configuration list for PBXNativeTarget "It'sMoreThanAScheduller" */ = {
+		82936246274F6DC70053F66C /* Build configuration list for PBXNativeTarget "It'sMoreThanAScheduller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				494704B4274C1C7A00864FDF /* Debug */,
-				494704B5274C1C7A00864FDF /* Release */,
+				82936247274F6DC70053F66C /* Debug */,
+				82936248274F6DC70053F66C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 49470497274C1C7800864FDF /* Project object */;
+	rootObject = 82936230274F6DC70053F66C /* Project object */;
 }
