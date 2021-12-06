@@ -8,6 +8,7 @@
 import Foundation
 
 struct Subject: Identifiable {
+
     let id = UUID()
     var name: String
 }
