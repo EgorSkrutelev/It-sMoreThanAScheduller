@@ -17,7 +17,7 @@ public struct CalendarEvent <T:Hashable> {
     public var date: Date
     public var data: T
     
-    public var calendar:Calendar
+    public var calendar: Calendar
     
     public init(calendar:Calendar = Calendar.current, date:Date, data:T) {
         self.calendar = calendar
