@@ -19,7 +19,7 @@ public struct CalendarEvent <T:Hashable> {
     
     public var calendar: Calendar
     
-    public init(calendar:Calendar = Calendar.current, date:Date, data:T) {
+    public init(calendar: Calendar = Calendar.current, date: Date, data: T) {
         self.calendar = calendar
         self.data = data
         self.date = calendar.date(bySettingHour: 0, minute: 0, second: 0, of: date)!
