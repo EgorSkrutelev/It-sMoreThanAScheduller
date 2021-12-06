@@ -19,9 +19,9 @@ public struct CalendarMonth {
         "\(year)-\(month)"
     }
     
-    public var weeks:[[Date]]
+    public var weeks: [[Date]]
     
-    public init(calendar:Calendar, actualDate:Date, weeks:[[Date]]) {
+    public init(calendar: Calendar, actualDate: Date, weeks: [[Date]]) {
         self.calendar = calendar
         self.actualDate = actualDate
         self.weeks = weeks
