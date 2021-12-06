@@ -8,6 +8,7 @@
 import Foundation
 
 public struct CalendarWeekdaySymbol {
+
     public var symbol:String
     public var isWeekend:Bool
     public var order:Int
