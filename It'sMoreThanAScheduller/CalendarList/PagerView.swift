@@ -7,6 +7,7 @@
 //
 //  https://swiftwithmajid.com/2019/12/25/building-pager-view-in-swiftui/
 //
+
 import SwiftUI
 
 /// SwiftUI view that displays contained children in pages, like a  `UIPageViewController` in UIKit.
@@ -16,7 +17,9 @@ import SwiftUI
 ///   - currentIndex: binding fo current page.
 ///   - pageChanged: block to be called whenever a new page is displayed.
 ///   - content: `@ViewBuilder` block to generate all children pages.
+
 @available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
+
 struct PagerView<Content: View>: View {
     let pageCount: Int
     @Binding var currentIndex: Int
