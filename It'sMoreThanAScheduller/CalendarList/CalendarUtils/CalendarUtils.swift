@@ -26,9 +26,9 @@ public struct CalendarUtils {
         
         var isWeekend = false
         
-        for i in firstWeekdayIndex ..< originalSymbols.count {
-            isWeekend = (i == 0 || i == 6)
-            localizedSymbols.append(CalendarWeekdaySymbol(symbol: originalSymbols[i], isWeekend: isWeekend, order: i))
+        for index in firstWeekdayIndex ..< originalSymbols.count {
+            isWeekend = (index == 0 || index == 6)
+            localizedSymbols.append(CalendarWeekdaySymbol(symbol: originalSymbols[index], isWeekend: isWeekend, order: index))
         }
         
         for i in 0 ..< firstWeekdayIndex {
