@@ -17,8 +17,11 @@ import SwiftUI
 ///   - selectedDateColor: color used to highlight the selected day. Defaults to the accent color.
 ///   - todayDateColor: color used to highlight the current day. Defaults to the accent color with 0.3 opacity.
 ///   - viewForEvent: `@ViewBuilder` block to generate a view per every event on the selected date. All the generated views for a given day will be presented in a `List`.
+
 @available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
+
 public struct CalendarList<T:Hashable, Content:View>: View {
+
     @State private var months:[CalendarMonth]
     @State private var currentPage = 1
     
