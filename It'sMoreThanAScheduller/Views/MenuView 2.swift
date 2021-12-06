@@ -15,7 +15,7 @@ struct MenuView: View {
                 Image(systemName: "person")
                     .foregroundColor(.gray)
                     .imageScale(.large)
-                Text("333206")
+                Text("WHAT")
                     .foregroundColor(.gray)
                     .font(.headline)
             }
@@ -24,7 +24,7 @@ struct MenuView: View {
                 Image(systemName: "envelope")
                     .foregroundColor(.gray)
                     .imageScale(.large)
-                Text("Помощь")
+                Text("THE")
                     .foregroundColor(.gray)
                     .font(.headline)
             }
@@ -33,7 +33,7 @@ struct MenuView: View {
                 Image(systemName: "gear")
                     .foregroundColor(.gray)
                     .imageScale(.large)
-                Text("Настройки")
+                Text("FUCCC")
                     .foregroundColor(.gray)
                     .font(.headline)
             }
