@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		821739FC275026AA00533F50 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821739FB275026AA00533F50 /* MenuView.swift */; };
+		821739FE275026D100533F50 /* SlideOverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821739FD275026D100533F50 /* SlideOverCard.swift */; };
+		82173A002750285100533F50 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821739FF2750285100533F50 /* Subject.swift */; };
+		82173A04275051E800533F50 /* CalendarMonthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82173A03275051E800533F50 /* CalendarMonthHeader.swift */; };
 		8293623C274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293623B274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift */; };
 		8293623E274F6DC70053F66C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293623D274F6DC70053F66C /* ContentView.swift */; };
 		82936240274F6DC70053F66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8293623F274F6DC70053F66C /* Assets.xcassets */; };
 		82936243274F6DC70053F66C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82936242274F6DC70053F66C /* Preview Assets.xcassets */; };
+		82B5E26F274FCAE50023F6D2 /* CalendarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E26E274FCAE50023F6D2 /* CalendarList.swift */; };
+		82B5E271274FCB0F0023F6D2 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E270274FCB0F0023F6D2 /* PagerView.swift */; };
+		82B5E274274FCB420023F6D2 /* CalendarUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E273274FCB420023F6D2 /* CalendarUtils.swift */; };
+		82B5E276274FCB640023F6D2 /* CalendarWeekdaySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E275274FCB640023F6D2 /* CalendarWeekdaySymbol.swift */; };
+		82B5E27B274FCBE10023F6D2 /* CalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E27A274FCBE10023F6D2 /* CalendarMonthView.swift */; };
+		82B5E27D274FCBFB0023F6D2 /* CalendarViewDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E27C274FCBFB0023F6D2 /* CalendarViewDay.swift */; };
+		82B5E280274FCCD40023F6D2 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E27F274FCCD40023F6D2 /* CalendarEvent.swift */; };
+		82B5E282274FCD160023F6D2 /* CalendarMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E281274FCD160023F6D2 /* CalendarMonth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		821739FB275026AA00533F50 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		821739FD275026D100533F50 /* SlideOverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOverCard.swift; sourceTree = "<group>"; };
+		821739FF2750285100533F50 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		82173A03275051E800533F50 /* CalendarMonthHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonthHeader.swift; sourceTree = "<group>"; };
 		82936238274F6DC70053F66C /* It'sMoreThanAScheduller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "It'sMoreThanAScheduller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8293623B274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = It_sMoreThanASchedullerApp.swift; sourceTree = "<group>"; };
 		8293623D274F6DC70053F66C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8293623F274F6DC70053F66C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82936242274F6DC70053F66C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82B5E26E274FCAE50023F6D2 /* CalendarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarList.swift; sourceTree = "<group>"; };
+		82B5E270274FCB0F0023F6D2 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		82B5E273274FCB420023F6D2 /* CalendarUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtils.swift; sourceTree = "<group>"; };
+		82B5E275274FCB640023F6D2 /* CalendarWeekdaySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWeekdaySymbol.swift; sourceTree = "<group>"; };
+		82B5E27A274FCBE10023F6D2 /* CalendarMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonthView.swift; sourceTree = "<group>"; };
+		82B5E27C274FCBFB0023F6D2 /* CalendarViewDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewDay.swift; sourceTree = "<group>"; };
+		82B5E27F274FCCD40023F6D2 /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
+		82B5E281274FCD160023F6D2 /* CalendarMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +56,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82173A012750285600533F50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				821739FF2750285100533F50 /* Subject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82173A022750287400533F50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8293623D274F6DC70053F66C /* ContentView.swift */,
+				821739FB275026AA00533F50 /* MenuView.swift */,
+				821739FD275026D100533F50 /* SlideOverCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8293622F274F6DC70053F66C = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				8293623B274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift */,
-				8293623D274F6DC70053F66C /* ContentView.swift */,
+				82173A022750287400533F50 /* Views */,
+				82173A012750285600533F50 /* Model */,
+				82B5E26D274FCA850023F6D2 /* CalendarList */,
 				8293623F274F6DC70053F66C /* Assets.xcassets */,
 				82936241274F6DC70053F66C /* Preview Content */,
 			);
@@ -65,6 +109,46 @@
 				82936242274F6DC70053F66C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82B5E26D274FCA850023F6D2 /* CalendarList */ = {
+			isa = PBXGroup;
+			children = (
+				82B5E26E274FCAE50023F6D2 /* CalendarList.swift */,
+				82B5E270274FCB0F0023F6D2 /* PagerView.swift */,
+				82B5E272274FCB240023F6D2 /* CalendarUtils */,
+				82B5E277274FCB8F0023F6D2 /* CalendarViews */,
+				82B5E27E274FCC120023F6D2 /* DataStructures */,
+			);
+			path = CalendarList;
+			sourceTree = "<group>";
+		};
+		82B5E272274FCB240023F6D2 /* CalendarUtils */ = {
+			isa = PBXGroup;
+			children = (
+				82B5E273274FCB420023F6D2 /* CalendarUtils.swift */,
+				82B5E275274FCB640023F6D2 /* CalendarWeekdaySymbol.swift */,
+			);
+			path = CalendarUtils;
+			sourceTree = "<group>";
+		};
+		82B5E277274FCB8F0023F6D2 /* CalendarViews */ = {
+			isa = PBXGroup;
+			children = (
+				82B5E27A274FCBE10023F6D2 /* CalendarMonthView.swift */,
+				82B5E27C274FCBFB0023F6D2 /* CalendarViewDay.swift */,
+				82173A03275051E800533F50 /* CalendarMonthHeader.swift */,
+			);
+			path = CalendarViews;
+			sourceTree = "<group>";
+		};
+		82B5E27E274FCC120023F6D2 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				82B5E27F274FCCD40023F6D2 /* CalendarEvent.swift */,
+				82B5E281274FCD160023F6D2 /* CalendarMonth.swift */,
+			);
+			path = DataStructures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +167,8 @@
 			dependencies = (
 			);
 			name = "It'sMoreThanAScheduller";
+			packageProductDependencies = (
+			);
 			productName = "It'sMoreThanAScheduller";
 			productReference = 82936238274F6DC70053F66C /* It'sMoreThanAScheduller.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +197,8 @@
 				Base,
 			);
 			mainGroup = 8293622F274F6DC70053F66C;
+			packageReferences = (
+			);
 			productRefGroup = 82936239274F6DC70053F66C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +225,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B5E280274FCCD40023F6D2 /* CalendarEvent.swift in Sources */,
+				82173A002750285100533F50 /* Subject.swift in Sources */,
+				82B5E271274FCB0F0023F6D2 /* PagerView.swift in Sources */,
 				8293623E274F6DC70053F66C /* ContentView.swift in Sources */,
+				82B5E274274FCB420023F6D2 /* CalendarUtils.swift in Sources */,
+				82B5E27D274FCBFB0023F6D2 /* CalendarViewDay.swift in Sources */,
+				821739FE275026D100533F50 /* SlideOverCard.swift in Sources */,
+				82173A04275051E800533F50 /* CalendarMonthHeader.swift in Sources */,
 				8293623C274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift in Sources */,
+				82B5E27B274FCBE10023F6D2 /* CalendarMonthView.swift in Sources */,
+				821739FC275026AA00533F50 /* MenuView.swift in Sources */,
+				82B5E276274FCB640023F6D2 /* CalendarWeekdaySymbol.swift in Sources */,
+				82B5E282274FCD160023F6D2 /* CalendarMonth.swift in Sources */,
+				82B5E26F274FCAE50023F6D2 /* CalendarList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
