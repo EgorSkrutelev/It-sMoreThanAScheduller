@@ -35,6 +35,7 @@ struct PagerView<Content: View>: View {
     ///   - currentIndex: binding fo current page.
     ///   - pageChanged: block to be called whenever a new page is displayed.
     ///   - content: `@ViewBuilder` block to generate all children pages.
+    
     init(pageCount: Int, currentIndex: Binding<Int>, pageChanged: ((Int) -> ())? = nil, @ViewBuilder content: () -> Content) {
         
         self.pageCount = pageCount
