@@ -9,14 +9,16 @@
 import SwiftUI
 
 @available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
+
 struct CalendarMonthView<T:Hashable>: View {
-    let month:CalendarMonth
-    let calendar:Calendar
-    @Binding var selectedDate:Date
-    let calendarDayHeight:CGFloat
+
+    let month: CalendarMonth
+    let calendar: Calendar
+    @Binding var selectedDate: Date
+    let calendarDayHeight: CGFloat
     let eventsForDate: [Date: [CalendarEvent<T>] ]
-    let selectedDateColor:Color
-    let todayDateColor:Color
+    let selectedDateColor: Color
+    let todayDateColor: Color
     
     var body: some View {
         GeometryReader { geometry in
