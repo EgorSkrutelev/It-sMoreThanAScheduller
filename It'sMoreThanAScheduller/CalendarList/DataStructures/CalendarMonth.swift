@@ -8,13 +8,14 @@
 import Foundation
 
 public struct CalendarMonth {
-    public var calendar:Calendar
-    public var actualDate:Date
+
+    public var calendar: Calendar
+    public var actualDate: Date
     
-    public var year:Int
-    public var month:Int
+    public var year: Int
+    public var month: Int
     
-    public var key:String {
+    public var key: String {
         "\(year)-\(month)"
     }
     
