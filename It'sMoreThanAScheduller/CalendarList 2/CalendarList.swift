@@ -17,11 +17,8 @@ import SwiftUI
 ///   - selectedDateColor: color used to highlight the selected day. Defaults to the accent color.
 ///   - todayDateColor: color used to highlight the current day. Defaults to the accent color with 0.3 opacity.
 ///   - viewForEvent: `@ViewBuilder` block to generate a view per every event on the selected date. All the generated views for a given day will be presented in a `List`.
-
 @available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
-
 public struct CalendarList<T:Hashable, Content:View>: View {
-
     @State private var months:[CalendarMonth]
     @State private var currentPage = 1
     
@@ -45,7 +42,6 @@ public struct CalendarList<T:Hashable, Content:View>: View {
     ///   - selectedDateColor: color used to highlight the selected day. Defaults to the accent color.
     ///   - todayDateColor: color used to highlight the current day. Defaults to the accent color with 0.3 opacity.
     ///   - viewForEvent: `@ViewBuilder` block to generate a view per every event on the selected date. All the generated views for a given day will be presented in a `List`.
-    
     public init(initialDate:Date = Date(),
                 calendar:Calendar = Calendar.current,
                 events:[CalendarEvent<T>],
@@ -99,26 +95,10 @@ public struct CalendarList<T:Hashable, Content:View>: View {
                             )
                         }
                     }
-                }
-                .frame(height: CGFloat(self.months[1].weeks.count) * self.calendarDayHeight)
-                
-                if eventsForSelectedDate().count != 0 {
-                    ScrollView(showsIndicators: false) {
-                        VStack(alignment: .leading, spacing: 20) {
-                            ForEach(eventsForSelectedDate(), id:\.data) { event in
-                                self.viewForEventBlock(event)
-                            }
-                        }
-                        .padding(.horizontal, 20)
-                    }
-                } else {
-                    VStack {
-                        Text("в этот день ничего нет...")
-                            .font(.system(size: 20, weight: .medium, design: .rounded))
-                        Spacer()
-                        Image("star")
-                            .resizable()
-                            .frame(width: 200, height: 200, alignment: .center)
+                }.frame(height: CGFloat(self.months[1].weeks.count) * self.calendarDayHeight)
+                VStack {
+                    ForEach(eventsForSelectedDate(), id:\.data) { event in
+                        self.viewForEventBlock(event)
                     }
                 }
                 

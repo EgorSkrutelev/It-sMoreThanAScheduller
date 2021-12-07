@@ -28,37 +28,24 @@ struct ContentView: View {
         return NavigationView {
             GeometryReader { geometry in
                 ZStack(alignment: .leading) {
-                    // calndar view
                     CalendarList(events: self.events) { event in
-                        // list with schedule
-                        Spacer()
-                        
-                        ForEach(event.data, id:\.[0]) { subject in
-                            HStack {
-                                VStack(alignment: .leading) {
-                                    Text(subject[0])
-                                        .font(.system(size: 20, weight: .bold, design: .rounded))
-                                        .foregroundColor(.blue)
-                                    Text(subject[1])
-                                        .font(.system(size: 18, weight: .light, design: .rounded))
+                        List {
+                            ForEach(event.data, id:\.[0]) { subject in
+                                HStack {
+                                    VStack(alignment: .leading) {
+                                        Text(subject[0])
+                                        Text(subject[1]).font(.subheadline).foregroundColor(.gray)
+                                    }
+                                    Spacer()
+                                    Text("Лекция")
                                 }
-                                Spacer()
-                                Text("Лекция")
-                                    .font(.system(size: 18, weight: .bold, design: .rounded))
                             }
-                            .padding()
-                            .background(.white)
-                            .cornerRadius(12)
-                            .shadow(color: .gray.opacity(0.8), radius: 10)
                         }
-                        
-                        Spacer()
                     }
                     .frame(width: geometry.size.width, height: geometry.size.height)
                     .offset(x: self.showMenu ? geometry.size.width/2 : 0)
                     .disabled(self.showMenu ? true : false)
                     
-                    // left side menu
                     if self.showMenu {
                         MenuView()
                             .frame(width: geometry.size.width/2)
@@ -67,7 +54,7 @@ struct ContentView: View {
                 }
                 .gesture(drag)
             }
-            .navigationBarTitle("Расписание 📚", displayMode: .large)
+            .navigationBarTitle("Расписание", displayMode: .large)
             .navigationBarItems(leading: (
                 Button(action: {
                     withAnimation {
@@ -95,6 +82,68 @@ struct ContentView: View {
                 })
             )
         }
+        
+        VStack {
+            HStack(alignment: .center) {
+                Button(action: {
+
+                    // some haptic thing
+                    let impactMed = UIImpactFeedbackGenerator(style: .medium)
+                    impactMed.impactOccurred()
+                }) {
+                    Image(systemName: "gearshape")
+                        .renderingMode(.original)
+                        .padding()
+                }
+                .font(.system(size: 20, weight: Font.Weight.bold))
+                .cornerRadius(14)
+                .buttonStyle(PlainButtonStyle())
+
+                Spacer()
+
+                Text("Расписание")
+                    .font(.system(size: 24, weight: .heavy))
+
+                Spacer()
+
+                Button(action: {
+
+                    // some haptic thing
+                    let impactMed = UIImpactFeedbackGenerator(style: .medium)
+                    impactMed.impactOccurred()
+                }) {
+                    Image(systemName: "globe")
+                        .renderingMode(.original)
+                        .padding()
+                }
+                .font(.system(size: 20, weight: Font.Weight.bold))
+                .cornerRadius(14)
+                .buttonStyle(PlainButtonStyle())
+            }
+        }
+    }
+}
+
+struct SubjectRow: View {
+    var subject: Subject
+    
+    var body: some View {
+        HStack(alignment: .center) {
+            Image("book")
+                .resizable()
+                .frame(width: 50, height: 50)
+                .padding()
+            Spacer()
+            VStack(alignment: .leading) {
+                Text(subject.name)
+                Spacer()
+                Text("В 8:20")
+            }
+            .padding()
+        }
+        .padding(.horizontal, 10)
+        .padding(.vertical, 10)
+        .background(.green)
     }
 }
 
