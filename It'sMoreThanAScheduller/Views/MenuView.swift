@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct MenuView: View {
+    
+    @State private var showProfile = false
+    @State private var showSettings = false
+    
     var body: some View {
         
         VStack {
             VStack(alignment: .leading, spacing: 20) {
                 Button(action: {
+                    showProfile.toggle()
+                    
                     // some haptic thing
-                    let impactMed = UIImpactFeedbackGenerator(style: .medium)
+                    let impactMed = UIImpactFeedbackGenerator(style: .light)
                     impactMed.impactOccurred()
                 }) {
                     HStack {
@@ -26,10 +32,13 @@ struct MenuView: View {
                 }
                 .font(.system(size: 18, weight: .medium, design: .rounded))
                 .foregroundColor(.white)
+                .sheet(isPresented: $showProfile) {
+                    ProfileView()
+                }
                 
                 Button(action: {
                     // some haptic thing
-                    let impactMed = UIImpactFeedbackGenerator(style: .medium)
+                    let impactMed = UIImpactFeedbackGenerator(style: .light)
                     impactMed.impactOccurred()
                 }) {
                     HStack {
@@ -43,8 +52,10 @@ struct MenuView: View {
                 .foregroundColor(.white)
                 
                 Button(action: {
+                    showSettings.toggle()
+                    
                     // some haptic thing
-                    let impactMed = UIImpactFeedbackGenerator(style: .medium)
+                    let impactMed = UIImpactFeedbackGenerator(style: .light)
                     impactMed.impactOccurred()
                 }) {
                     HStack {
@@ -56,6 +67,9 @@ struct MenuView: View {
                 }
                 .font(.system(size: 18, weight: .medium, design: .rounded))
                 .foregroundColor(.white)
+                .sheet(isPresented: $showSettings) {
+                    SettingsView()
+                }
             }
             Spacer()
         }

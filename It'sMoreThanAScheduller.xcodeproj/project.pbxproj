@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		821739FC275026AA00533F50 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821739FB275026AA00533F50 /* MenuView.swift */; };
-		821739FE275026D100533F50 /* SlideOverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821739FD275026D100533F50 /* SlideOverCard.swift */; };
 		82173A002750285100533F50 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821739FF2750285100533F50 /* Subject.swift */; };
 		82173A04275051E800533F50 /* CalendarMonthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82173A03275051E800533F50 /* CalendarMonthHeader.swift */; };
 		8293623C274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293623B274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift */; };
@@ -23,11 +22,20 @@
 		82B5E27D274FCBFB0023F6D2 /* CalendarViewDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E27C274FCBFB0023F6D2 /* CalendarViewDay.swift */; };
 		82B5E280274FCCD40023F6D2 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E27F274FCCD40023F6D2 /* CalendarEvent.swift */; };
 		82B5E282274FCD160023F6D2 /* CalendarMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E281274FCD160023F6D2 /* CalendarMonth.swift */; };
+		82B6B9E827600C9E006DCF1B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6B9E727600C9E006DCF1B /* ProfileView.swift */; };
+		82B6B9FC27600ECE006DCF1B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6B9F027600ECE006DCF1B /* AboutView.swift */; };
+		82B6B9FD27600ECE006DCF1B /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6B9F127600ECE006DCF1B /* ShareSheetView.swift */; };
+		82B6B9FE27600ECE006DCF1B /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6B9F227600ECE006DCF1B /* SettingsViewModel.swift */; };
+		82B6B9FF27600ECE006DCF1B /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6B9F327600ECE006DCF1B /* MailView.swift */; };
+		82B6BA0027600ECE006DCF1B /* AppVersionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6B9F427600ECE006DCF1B /* AppVersionRow.swift */; };
+		82B6BA0127600ECE006DCF1B /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6B9F527600ECE006DCF1B /* SettingsRow.swift */; };
+		82B6BA0227600ECE006DCF1B /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6B9F627600ECE006DCF1B /* FeedbackManager.swift */; };
+		82B6BA0427600F3F006DCF1B /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6BA0327600F3F006DCF1B /* View+Extension.swift */; };
+		82B6BA0727600FC1006DCF1B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6BA0627600FC1006DCF1B /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		821739FB275026AA00533F50 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		821739FD275026D100533F50 /* SlideOverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOverCard.swift; sourceTree = "<group>"; };
 		821739FF2750285100533F50 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		82173A03275051E800533F50 /* CalendarMonthHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonthHeader.swift; sourceTree = "<group>"; };
 		82936238274F6DC70053F66C /* It'sMoreThanAScheduller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "It'sMoreThanAScheduller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +51,16 @@
 		82B5E27C274FCBFB0023F6D2 /* CalendarViewDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewDay.swift; sourceTree = "<group>"; };
 		82B5E27F274FCCD40023F6D2 /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
 		82B5E281274FCD160023F6D2 /* CalendarMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonth.swift; sourceTree = "<group>"; };
+		82B6B9E727600C9E006DCF1B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		82B6B9F027600ECE006DCF1B /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		82B6B9F127600ECE006DCF1B /* ShareSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
+		82B6B9F227600ECE006DCF1B /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		82B6B9F327600ECE006DCF1B /* MailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		82B6B9F427600ECE006DCF1B /* AppVersionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVersionRow.swift; sourceTree = "<group>"; };
+		82B6B9F527600ECE006DCF1B /* SettingsRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
+		82B6B9F627600ECE006DCF1B /* FeedbackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
+		82B6BA0327600F3F006DCF1B /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		82B6BA0627600FC1006DCF1B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +87,8 @@
 			children = (
 				8293623D274F6DC70053F66C /* ContentView.swift */,
 				821739FB275026AA00533F50 /* MenuView.swift */,
-				821739FD275026D100533F50 /* SlideOverCard.swift */,
+				82B6BA0527600FA6006DCF1B /* Menu */,
+				82B6B9E927600ECE006DCF1B /* Settings */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +170,38 @@
 			path = DataStructures;
 			sourceTree = "<group>";
 		};
+		82B6B9E927600ECE006DCF1B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				82B6B9EF27600ECE006DCF1B /* Helpers */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		82B6B9EF27600ECE006DCF1B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				82B6B9F027600ECE006DCF1B /* AboutView.swift */,
+				82B6B9F127600ECE006DCF1B /* ShareSheetView.swift */,
+				82B6B9F227600ECE006DCF1B /* SettingsViewModel.swift */,
+				82B6B9F327600ECE006DCF1B /* MailView.swift */,
+				82B6B9F427600ECE006DCF1B /* AppVersionRow.swift */,
+				82B6B9F527600ECE006DCF1B /* SettingsRow.swift */,
+				82B6B9F627600ECE006DCF1B /* FeedbackManager.swift */,
+				82B6BA0327600F3F006DCF1B /* View+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		82B6BA0527600FA6006DCF1B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				82B6B9E727600C9E006DCF1B /* ProfileView.swift */,
+				82B6BA0627600FC1006DCF1B /* SettingsView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -226,12 +277,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				82B5E280274FCCD40023F6D2 /* CalendarEvent.swift in Sources */,
+				82B6BA0727600FC1006DCF1B /* SettingsView.swift in Sources */,
+				82B6BA0227600ECE006DCF1B /* FeedbackManager.swift in Sources */,
+				82B6B9FE27600ECE006DCF1B /* SettingsViewModel.swift in Sources */,
+				82B6B9FC27600ECE006DCF1B /* AboutView.swift in Sources */,
 				82173A002750285100533F50 /* Subject.swift in Sources */,
 				82B5E271274FCB0F0023F6D2 /* PagerView.swift in Sources */,
 				8293623E274F6DC70053F66C /* ContentView.swift in Sources */,
 				82B5E274274FCB420023F6D2 /* CalendarUtils.swift in Sources */,
+				82B6B9FF27600ECE006DCF1B /* MailView.swift in Sources */,
+				82B6B9FD27600ECE006DCF1B /* ShareSheetView.swift in Sources */,
 				82B5E27D274FCBFB0023F6D2 /* CalendarViewDay.swift in Sources */,
-				821739FE275026D100533F50 /* SlideOverCard.swift in Sources */,
+				82B6BA0127600ECE006DCF1B /* SettingsRow.swift in Sources */,
+				82B6B9E827600C9E006DCF1B /* ProfileView.swift in Sources */,
+				82B6BA0027600ECE006DCF1B /* AppVersionRow.swift in Sources */,
 				82173A04275051E800533F50 /* CalendarMonthHeader.swift in Sources */,
 				8293623C274F6DC70053F66C /* It_sMoreThanASchedullerApp.swift in Sources */,
 				82B5E27B274FCBE10023F6D2 /* CalendarMonthView.swift in Sources */,
@@ -239,6 +298,7 @@
 				82B5E276274FCB640023F6D2 /* CalendarWeekdaySymbol.swift in Sources */,
 				82B5E282274FCD160023F6D2 /* CalendarMonth.swift in Sources */,
 				82B5E26F274FCAE50023F6D2 /* CalendarList.swift in Sources */,
+				82B6BA0427600F3F006DCF1B /* View+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
