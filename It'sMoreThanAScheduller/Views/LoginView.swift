@@ -2,7 +2,7 @@
 //  LoginView.swift
 //  It'sMoreThanAScheduller
 //
-//  Created by Николай Циминтия on 06.12.2021.
+//  Created by Roman Rakhlin on 14.12.2021.
 //
 
 import SwiftUI
@@ -21,8 +21,6 @@ struct LoginView: View {
                 IdentifierTextField()
                 PasswordTextField()
                 LoginButton()
-
-                
             }.padding()
         }
     }
@@ -30,7 +28,7 @@ struct LoginView: View {
 
 struct IdentifierTextField: View {
     @State var text = ""
-    
+
     var body: some View {
         TextField(" ISU ID", text: $text)
             .padding()
@@ -38,7 +36,6 @@ struct IdentifierTextField: View {
             .frame(width: 300, height: nil, alignment: .center)
             .cornerRadius(25)
     }
-    
 }
 
 struct PasswordTextField: View {
@@ -51,7 +48,6 @@ struct PasswordTextField: View {
             .frame(width: 300, height: nil, alignment: .center)
             .cornerRadius(25)
     }
-    
 }
 
 struct LoginButton: View {
@@ -64,5 +60,4 @@ struct LoginButton: View {
         .background(Color.red)
         .clipShape(RoundedRectangle(cornerRadius: 20))
     }
-    
 }

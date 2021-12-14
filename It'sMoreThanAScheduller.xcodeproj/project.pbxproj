@@ -33,6 +33,7 @@
 		82B6BA0227600ECE006DCF1B /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6B9F627600ECE006DCF1B /* FeedbackManager.swift */; };
 		82B6BA0427600F3F006DCF1B /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6BA0327600F3F006DCF1B /* View+Extension.swift */; };
 		82B6BA0727600FC1006DCF1B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6BA0627600FC1006DCF1B /* SettingsView.swift */; };
+		82FC4D4A2768EC1300A73AB6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC4D492768EC1300A73AB6 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		82B6B9F627600ECE006DCF1B /* FeedbackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
 		82B6BA0327600F3F006DCF1B /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		82B6BA0627600FC1006DCF1B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		82FC4D492768EC1300A73AB6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				821739FB275026AA00533F50 /* MenuView.swift */,
 				82B6BA0527600FA6006DCF1B /* Menu */,
 				82B6B9E927600ECE006DCF1B /* Settings */,
+				82FC4D492768EC1300A73AB6 /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,6 +103,7 @@
 			children = (
 				8293623A274F6DC70053F66C /* It'sMoreThanAScheduller */,
 				82936239274F6DC70053F66C /* Products */,
+				82FC4D482768EB7F00A73AB6 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,6 +208,14 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
+		82FC4D482768EB7F00A73AB6 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				82B27FE7275E6DAA00EB36E0 /* LoginView.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -291,6 +303,7 @@
 				82B6B9FF27600ECE006DCF1B /* MailView.swift in Sources */,
 				82B6B9FD27600ECE006DCF1B /* ShareSheetView.swift in Sources */,
 				82B5E27D274FCBFB0023F6D2 /* CalendarViewDay.swift in Sources */,
+				82FC4D4A2768EC1300A73AB6 /* LoginView.swift in Sources */,
 				82B6BA0127600ECE006DCF1B /* SettingsRow.swift in Sources */,
 				82B6B9E827600C9E006DCF1B /* ProfileView.swift in Sources */,
 				82B6BA0027600ECE006DCF1B /* AppVersionRow.swift in Sources */,
