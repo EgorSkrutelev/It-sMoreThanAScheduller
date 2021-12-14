@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4417A5102768EE240049F197 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4417A50F2768EE240049F197 /* FAQView.swift */; };
 		821739FC275026AA00533F50 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821739FB275026AA00533F50 /* MenuView.swift */; };
 		82173A002750285100533F50 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821739FF2750285100533F50 /* Subject.swift */; };
 		82173A04275051E800533F50 /* CalendarMonthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82173A03275051E800533F50 /* CalendarMonthHeader.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4417A50F2768EE240049F197 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		821739FB275026AA00533F50 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		821739FF2750285100533F50 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		82173A03275051E800533F50 /* CalendarMonthHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonthHeader.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				82B6B9E727600C9E006DCF1B /* ProfileView.swift */,
+				4417A50F2768EE240049F197 /* FAQView.swift */,
 				82B6BA0627600FC1006DCF1B /* SettingsView.swift */,
 			);
 			path = Menu;
@@ -297,6 +300,7 @@
 				82173A002750285100533F50 /* Subject.swift in Sources */,
 				82B5E271274FCB0F0023F6D2 /* PagerView.swift in Sources */,
 				8293623E274F6DC70053F66C /* ContentView.swift in Sources */,
+				4417A5102768EE240049F197 /* FAQView.swift in Sources */,
 				82B5E274274FCB420023F6D2 /* CalendarUtils.swift in Sources */,
 				82B6B9FF27600ECE006DCF1B /* MailView.swift in Sources */,
 				82B6B9FD27600ECE006DCF1B /* ShareSheetView.swift in Sources */,
