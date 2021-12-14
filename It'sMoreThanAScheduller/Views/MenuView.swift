@@ -10,6 +10,7 @@ import SwiftUI
 struct MenuView: View {
     
     @State private var showProfile = false
+    @State private var showFAQ = false
     @State private var showSettings = false
     
     var body: some View {
@@ -36,6 +37,8 @@ struct MenuView: View {
                 }
                 
                 Button(action: {
+                    showFAQ.toggle()
+                    
                     // some haptic thing
                     let impactMed = UIImpactFeedbackGenerator(style: .light)
                     impactMed.impactOccurred()
@@ -49,6 +52,9 @@ struct MenuView: View {
                 }
                 .font(.system(size: 18, weight: .medium, design: .rounded))
                 .foregroundColor(.white)
+                .sheet(isPresented: $showFAQ) {
+                    FAQView()
+                }
                 
                 Button(action: {
                     showSettings.toggle()
