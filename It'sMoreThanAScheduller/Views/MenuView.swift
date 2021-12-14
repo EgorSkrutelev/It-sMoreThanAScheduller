@@ -13,7 +13,6 @@ struct MenuView: View {
     @State private var showSettings = false
     
     var body: some View {
-        
         VStack {
             VStack(alignment: .leading, spacing: 20) {
                 Button(action: {
