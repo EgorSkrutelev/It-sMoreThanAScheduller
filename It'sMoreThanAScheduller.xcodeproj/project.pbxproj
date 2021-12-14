@@ -89,13 +89,8 @@
 			children = (
 				8293623D274F6DC70053F66C /* ContentView.swift */,
 				821739FB275026AA00533F50 /* MenuView.swift */,
-<<<<<<< HEAD
 				82B6BA0527600FA6006DCF1B /* Menu */,
 				82B6B9E927600ECE006DCF1B /* Settings */,
-=======
-				821739FD275026D100533F50 /* SlideOverCard.swift */,
-				82B27FE7275E6DAA00EB36E0 /* LoginView.swift */,
->>>>>>> master
 			);
 			path = Views;
 			sourceTree = "<group>";
