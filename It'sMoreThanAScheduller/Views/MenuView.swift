@@ -8,41 +8,72 @@
 import SwiftUI
 
 struct MenuView: View {
+    
+    @State private var showProfile = false
+    @State private var showSettings = false
+    
     var body: some View {
-        
-        VStack(alignment: .leading) {
-            HStack {
-                Image(systemName: "person")
-                    .foregroundColor(.gray)
-                    .imageScale(.large)
-                Text("333206")
-                    .foregroundColor(.gray)
-                    .font(.headline)
+        VStack {
+            VStack(alignment: .leading, spacing: 20) {
+                Button(action: {
+                    showProfile.toggle()
+                    
+                    // some haptic thing
+                    let impactMed = UIImpactFeedbackGenerator(style: .light)
+                    impactMed.impactOccurred()
+                }) {
+                    HStack {
+                        Image(systemName: "person")
+                            .foregroundColor(.white)
+                            .imageScale(.large)
+                        Text("Профиль")
+                    }
+                }
+                .font(.system(size: 18, weight: .medium, design: .rounded))
+                .foregroundColor(.white)
+                .sheet(isPresented: $showProfile) {
+                    ProfileView()
+                }
+                
+                Button(action: {
+                    // some haptic thing
+                    let impactMed = UIImpactFeedbackGenerator(style: .light)
+                    impactMed.impactOccurred()
+                }) {
+                    HStack {
+                        Image(systemName: "envelope")
+                            .foregroundColor(.white)
+                            .imageScale(.large)
+                        Text("FAQ")
+                    }
+                }
+                .font(.system(size: 18, weight: .medium, design: .rounded))
+                .foregroundColor(.white)
+                
+                Button(action: {
+                    showSettings.toggle()
+                    
+                    // some haptic thing
+                    let impactMed = UIImpactFeedbackGenerator(style: .light)
+                    impactMed.impactOccurred()
+                }) {
+                    HStack {
+                        Image(systemName: "gear")
+                            .foregroundColor(.white)
+                            .imageScale(.large)
+                        Text("Настройки")
+                    }
+                }
+                .font(.system(size: 18, weight: .medium, design: .rounded))
+                .foregroundColor(.white)
+                .sheet(isPresented: $showSettings) {
+                    SettingsView()
+                }
             }
-            .padding(.top, 100)
-            HStack {
-                Image(systemName: "envelope")
-                    .foregroundColor(.gray)
-                    .imageScale(.large)
-                Text("Помощь")
-                    .foregroundColor(.gray)
-                    .font(.headline)
-            }
-                .padding(.top, 30)
-            HStack {
-                Image(systemName: "gear")
-                    .foregroundColor(.gray)
-                    .imageScale(.large)
-                Text("Настройки")
-                    .foregroundColor(.gray)
-                    .font(.headline)
-            }
-            .padding(.top, 30)
             Spacer()
         }
-            .padding()
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .background(.black)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(.black)
     }
 }
 

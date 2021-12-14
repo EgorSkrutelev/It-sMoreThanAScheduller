@@ -102,7 +102,16 @@ public struct CalendarList<T:Hashable, Content:View>: View {
                 }
                 .frame(height: CGFloat(self.months[1].weeks.count) * self.calendarDayHeight)
                 
-                ZStack {
+                if eventsForSelectedDate().count != 0 {
+                    ScrollView(showsIndicators: false) {
+                        VStack(alignment: .leading, spacing: 20) {
+                            ForEach(eventsForSelectedDate(), id:\.data) { event in
+                                self.viewForEventBlock(event)
+                            }
+                        }
+                        .padding(.horizontal, 20)
+                    }
+                } else {
                     VStack {
                         Text("в этот день ничего нет...")
                             .font(.system(size: 20, weight: .medium, design: .rounded))
@@ -110,12 +119,6 @@ public struct CalendarList<T:Hashable, Content:View>: View {
                         Image("star")
                             .resizable()
                             .frame(width: 200, height: 200, alignment: .center)
-                    }
-
-                    VStack {
-                        ForEach(eventsForSelectedDate(), id:\.data) { event in
-                            self.viewForEventBlock(event)
-                        }
                     }
                 }
                 

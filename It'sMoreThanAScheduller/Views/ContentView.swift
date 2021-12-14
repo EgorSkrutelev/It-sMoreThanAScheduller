@@ -31,22 +31,28 @@ struct ContentView: View {
                     // calndar view
                     CalendarList(events: self.events) { event in
                         // list with schedule
-                        List {
-                            ForEach(event.data, id:\.[0]) { subject in
-                                HStack {
-                                    VStack(alignment: .leading) {
-                                        Text(subject[0])
-                                            .font(.system(size: 20, weight: .bold, design: .rounded))
-                                        Text(subject[1])
-                                            .font(.system(size: 18, weight: .light, design: .rounded))
-                                    }
-                                    Spacer()
-                                    Text("Лекция")
-                                        .font(.system(size: 18, weight: .bold, design: .rounded))
+                        Spacer()
+                        
+                        ForEach(event.data, id:\.[0]) { subject in
+                            HStack {
+                                VStack(alignment: .leading) {
+                                    Text(subject[0])
+                                        .font(.system(size: 20, weight: .bold, design: .rounded))
+                                        .foregroundColor(.blue)
+                                    Text(subject[1])
+                                        .font(.system(size: 18, weight: .light, design: .rounded))
                                 }
+                                Spacer()
+                                Text("Лекция")
+                                    .font(.system(size: 18, weight: .bold, design: .rounded))
                             }
-                            .listRowBackground(Color.gray.opacity(0.4))
+                            .padding()
+                            .background(.white)
+                            .cornerRadius(12)
+                            .shadow(color: .gray.opacity(0.8), radius: 10)
                         }
+                        
+                        Spacer()
                     }
                     .frame(width: geometry.size.width, height: geometry.size.height)
                     .offset(x: self.showMenu ? geometry.size.width/2 : 0)
